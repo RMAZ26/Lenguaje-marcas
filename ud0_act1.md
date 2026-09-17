@@ -34,4 +34,27 @@ Las conclusiones que saco de mi observación es que depende de si le pones forma
     
 </dam>
 ```
-#Ejercicio 3
+# Ejercicio 3
+
+<mundo>
+ <paises>
+      <titulo>Mis países favoritos</titulo>
+      <pais>
+           <nombre>Mexico</nombre>
+           <capital>Ciudad de mexico</capital>
+           <ciudad_favorita>Ciudad de mexico</ciudad_favorita>
+           <gentilicio>Mexicano</gentilicio>
+      </pais>
+      <pais>
+           <nombre>Francia</nombre>
+           <capital>Paris</capital>
+           <ciudad_favorita>Paris</ciudad_favorita>
+           <gentilicio>Frances</gentilicio>
+      </pais>
+      <pais>
+           <nombre>Rusia</nombre>
+           <capital>Moscu</capital>
+           <ciudad_favorita>Moscu</ciudad_favorita>
+           <gentilicio>Ruso</gentilicio>
+      </pais>
+ </paises>
