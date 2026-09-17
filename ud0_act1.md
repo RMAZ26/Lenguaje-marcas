@@ -35,7 +35,7 @@ Las conclusiones que saco de mi observación es que depende de si le pones forma
 </dam>
 ```
 # Ejercicio 3
-
+```
 <mundo>
  <paises>
       <titulo>Mis países favoritos</titulo>
@@ -58,3 +58,4 @@ Las conclusiones que saco de mi observación es que depende de si le pones forma
            <gentilicio>Ruso</gentilicio>
       </pais>
  </paises>
+```
