@@ -1,7 +1,8 @@
 # Ejercicio 1 
 Las conclusiones que saco de mi observación es que depende de si le pones formato como te lo interpreta es decir si lo dejas en texto te lo abrira como un fichero de texto normal y si le pones html te lo interpreta como una estructura de html haciendo caso de los h1 (titulo) y los h3 (subtitulos)
 # Ejercicio 2
-```<dam>
+```
+<dam>
      <modulo><titulo>Lenguaje de Marcas</titulo>
        <contenido>
           <unidad>Introducción</unidad>
@@ -9,18 +10,28 @@ Las conclusiones que saco de mi observación es que depende de si le pones forma
           <unidad>CSS</unidad>
        </contenido>
      </modulo>
-      <modulo><titulo>ISO</titulo>
-        <contenido>
+     <modulo><titulo>ISO</titulo>
+       <contenido>
           <unidad>intrduccion</unidad>
           <unidad>Widows Server</unidad>
           <unidad>Shell Script</unidad>
-      </modulo>
-      <modulo><titulo>Base de datos</titulos>
-          <contenido>
-          <unidad></unidad>
-          <unidad></unidad>
-          <unidad></unidad>
-          </contenido>
+       </contenido>
+     </modulo>
+     <modulo><titulo>Base de datos</titulo>
+       <contenido>
+          <unidad>Introducion</unidad>
+          <unidad>Tablas</unidad>
+          <unidad>MySql</unidad>
+       </contenido>
+     </modulo>
+     <modulo><titulo>Redes</titulo>
+       <contenido>
+          <unidad>Introducion</unidad>
+          <unidad>Modelo OSI</unidad>
+          <unidad>Capa física</unidad>    
+       </contenido>
+     </modulo>
     
 </dam>
 ```
+#Ejercicio 3
