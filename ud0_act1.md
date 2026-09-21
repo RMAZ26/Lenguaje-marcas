@@ -59,3 +59,34 @@ Las conclusiones que saco de mi observación es que depende de si le pones forma
       </pais>
  </paises>
 ```
+# Ejercicio 4
+```
+<libreria>
+     <libro>
+          <titulo>Falco</titulo>
+          <tipo>Papel</tipo>
+          <isbn>9788420419688</isbn>
+          <escritor>Arturo Perez Reverte</escritor>
+          <paginas>296</paginas>
+          <editor>Alfaguara</editor>
+          <idioma>Castellano</idioma>
+     </libro>
+     <libro>
+          <titulo>Todo Altriaste</titulo>
+          <tipo>EBOOK</tipo>
+          <isbn>9788420425528</isbn>
+          <escritor>Arturo Perez Reverte</escritor>
+          <editor>Alfaguara</editor>
+          <idioma>Castellano</idioma>
+     </libro>
+     <libro>
+          <titulo>Hombres buenos</titulo>
+          <tipo>Papel</tipo>
+          <isbn>9788466329804</isbn>
+          <escritor>Arturo Perez Reverte</escritor>
+          <editor>PUNTO DE LECTURA, 2024</editor>
+          <idioma>Castellano</idioma>
+          <descripcion>La heróica aventura de quienes se atrevieron a cambiar el mundo con libros.En tiempos de oscuridad siempre hubo hombres buenos que lucharon para                llevar las luces y el progreso. Y otros que procuraron impedirlo</descripcion>
+     </libro>
+</libreria
+```
