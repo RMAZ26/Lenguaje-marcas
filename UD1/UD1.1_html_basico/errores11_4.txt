@@ -1,0 +1,6 @@
+En la fila 1 estaba mal el doctype ponia htm y es html
+En la fila 2 estaba mal escrito el lang y ponia lan
+en la fila 3 faltaba cerrar la etiquieta tittle
+en la fila 8 la etiqueta b estaba mal cerrada ya que estaba despues de la p
+en la fila 9 faltaba cerrar la etiqueta p
+en la fila 11 y 12 faltaba cerrar la etiqueta li de las listas
