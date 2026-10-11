@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--El empty cells sirve para que cuando dejamos una celda sin rellenar si le ponemos la opcion hide esconda estas mismas-->
+    <style>
+        table{
+            border-spacing: 5px;
+        }
+        th,td{
+            border: 1px solid;
+            empty-cells: hide;
+        }
+        caption{
+            caption-side: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Inventario general de componentes</caption>
+        <thead>
+            <tr>
+                <th>Codigo de producto</th>
+                <th>Descripcion de producto</th>
+                <th>Cantidad en stock</th>
+                <th>Precio Unitario €</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2" style="vertical-align: middle;" >Tarjetas y Modulos</td>
+                <td>Switch administrable 24 puertos</td>
+                <td>4</td>
+                <td>210€</td>
+            </tr>
+            <tr>
+                <td>Tarjeta de Red PCI-Express</td>
+                <td></td>
+                <td>35,00 €</td>
+            </tr>
+            <tr>
+                <td>Conectividad Optica</td>
+                <td>SFP Modulos Opticos</td>
+                <td>15</td>
+                <td>45,20 €</td>
+            </tr>
+            <tr>
+                <td>Cableado Estructurado</td>
+                <td>Cable UTP Cat6</td>
+                <td>12</td>
+                <td>85,50</td>
+            </tr>
+            <tr>
+                <td>Adaptadores</td>
+                <td>Adaptador USB a Ethernet</td>
+                <td>8</td>
+                <td>18,90 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"> Total Invetario: 39 Unidades - Valor  Global: 394,10 €</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
