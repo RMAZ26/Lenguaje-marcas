@@ -1,0 +1,26 @@
+/* COLOR DE EL FONDO */
+body{
+    background-color: beige;
+}
+
+/* AGRUPACION DE SELECTORES */
+h1,p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* USO DE CLASS*/
+.titulos{
+    background-color: aqua;
+    color: brown;
+    font-size: xx-large;
+}
+/*USO DE ID  */
+#subtitulo1{
+    background-color: yellow;
+    color: darkmagenta;
+    font-size: 30px;
+}
+#subtitulo2{
+   background-color: coral; 
+   color: crimson;
+   font-size: 30pxç;
+}

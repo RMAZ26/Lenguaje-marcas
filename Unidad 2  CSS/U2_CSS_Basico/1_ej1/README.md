@@ -1,0 +1,2 @@
+Preferiria la numero 3 con la hoja de estilos css ya que literalmente lo haces una vez en esa hoja y luego lo unico que tienes que hacer es linkear las demas paginas para que cojan el estilo que cambias hay y no tienes que cambiarlo en 10 sitios distintos
+Y tambien se desaconseja la primera por eficiencia tendrias que ir poniendo en cada h1 en cada p o en cada cosa que quisieras darle estilo la etiqueta style en las 10 paginas y acabarias tardando demasiado cuando con el 3  una hoja de css lo harias el triple de rapido

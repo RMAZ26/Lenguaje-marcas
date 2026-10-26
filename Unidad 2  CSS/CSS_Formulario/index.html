@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de alta para el usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+        <h1>Formulario de alta de usuario</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <table class="formulario-tabla">
+        <tr>
+            <td colspan="2">
+            <label for="Usuario"> Identificador de nuevo usuario:</label>
+            <input type="text" name="Usuario" disabled value="usu_012345" id="Usuario"> 
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre">
+            </td>
+            <td>
+                <label for="Apellidos">Apellidos:</label>
+                <input type="text" name="Apellidos" id="Apellidos">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Contraseña">Contraseña</label>
+                <input type="password" name="password" size="15" maxlength="15" id="Contraseña">
+            </td>
+            <td>
+                <label for="Contraseña_conf">Confirmar Contraseña</label>
+                <input type="password" name="Contraseña_conf" size="15" maxlength="15" id="Contraseña_conf">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <label for="e-mail">Email</label>
+                <input type="email" name="mail" id="e-mail">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Sexo">Sexo:</label>
+            </td>
+            <td>
+                <label><input type="radio" name="Sexo"  value="Hombre"> Hombre</label>
+                <label><input type="radio" name="Sexo"  value="Mujer" checked> Mujer</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="Aficiones">Aficiones</label>
+            </td>
+            <td>
+                <label> <input type="checkbox" name="Aficiones" value="deportes">Deportes</label>
+                <br>
+                <label><input type="checkbox" name="Aficiones" value="Lectura" checked>Lectura</label>
+                <br>
+                <label><input type="checkbox" name="Aficiones" value="Cine">Cine</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="Pais">Pais</label>
+            </td>
+            <td>
+                <select name="Paises" id="Pais" size="1">
+                    <option value="España" selected>España</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Portugal">Portugal</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="Subirfoto">Subir Foto</label>
+            </td>
+            <td>
+                <input type="file" id="Subirfoto" accept=".jpg, .png">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Comentarios_p">Comentarios personales</label>
+            </td>
+            <td>
+                <textarea name="Comentarios" id="Comentarios_p" cols="40" rows="5" placeholder="Escriba aqui sus comentarios"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="reset" name="breset" value="Resetear"></td>
+            <td><input type="submit" name="benvio" value="Enviar"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

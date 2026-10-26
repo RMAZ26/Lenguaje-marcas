@@ -1,0 +1,15 @@
+.menu{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: gray;
+}
+.boton{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50% ;
+    border: 2px solid black;
+    padding: 1%;
+    background-color: aqua;
+}

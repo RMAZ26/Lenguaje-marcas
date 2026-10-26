@@ -1,0 +1,8 @@
+.imagen{
+    /*Aqui usamos la propiedad abreviada respaldo square por si no carga , posicion outside y imagen */
+   list-style: square outside url(img/pollo.png);
+}
+.sangrado{
+    /*Outside deja la viñeta fuera de el texto y alinea los saltos de linea Inside la mete dentro y el texto pasa por debajo */
+    list-style: outside;
+}

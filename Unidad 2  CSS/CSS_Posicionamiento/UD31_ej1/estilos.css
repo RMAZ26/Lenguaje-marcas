@@ -1,0 +1,33 @@
+.contenedor{
+    border: 2px solid;
+    width: 300px;
+    position: relative;
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.cuadro.c1{
+    background-color: orange;
+    left: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.cuadro.c2{
+    background-color: yellow;
+    position: relative;
+    top: -20px;
+    left: 50px;
+    z-index: 0;
+    
+}
+
+.cuadro.c3{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
